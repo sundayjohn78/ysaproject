@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    background-image: url("/storage/emulated/0/20220829_123504.gif"); 
+background-repeat: no-repeat;
+background-position: fixed;
+         background-attachment: fixed;
+         background-position: center;
+         background-size:370px;
+         background-origin: content-box;
+         background-clip: text;
+         -webkit-background-clip: text;
+}
+* {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .image-container {
+         margin: 0 auto; /* center the image containers */
+         width: 80%;
+         box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+         margin-bottom: 20px;
+      }
+      /* make the images responsive */
+      img {
+          display:block;
+         width: 100%;
+         height: auto;
+      }
+
+      input {
+          color: black;
+         outline: none;
+         padding: 10px;
+         border: 2px solid orange;
+         border-radius: 10px;
+      }
+      input::placeholder {
+         color: #FF9634;
+      }
+      textarea {
+         width: 350px;
+         height: 200px;
+         outline: none;
+         border: 5px solid orange;
+         border-radius: 20px;
+         padding: 10px;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+      }
+      textarea::placeholder {
+         color: #FF9634;
+      }
+      #my-favorite-animal {
+          border:5px solid orange;
+          border-radius: 10px;
+          color: #FF9634;
+          background: black;
+      }
+      h1 {
+          background-color: black;
+          color: #FF9634;
+      }
+      input:focus, textarea:focus {
+         color: white;
+         background: black;
+         border-bottom: 2px solid red;
+      }
+      input:focus::placeholder, textarea:focus::placeholder {
+         color: red;
+      }
+      fieldset {
+          color: orange;
+          border: 2px solid orange;
+          border-radius: 20px;
+      }
+      #more-about-the-animal {
+          color: orange;
+      }
+      figcaption {
+          color:orange;
+      }
+      button {
+         font-family: sans-serif;
+         border: none;
+         padding: 15px 30px;
+         font-size: 20px;
+         outline: none;
+         border-radius: 5px;
+         background-color: orange;
+      }
+      a {
+          text-decoration: none;
+          color: white;
+      }
+      #copyright {text-align: center;
+      }
+      footer { background-color:black;
+      }
+      #favorite-head {
+          border-radius:5px #;
+      }
+      .with-transition {
+         width: 100px;
+         height: 90px;
+         background: black;
+         transition-property: width;
+         transition-duration: 2s;
+         transition-delay: .5s;
+      }
+      div:hover {
+         width: 400px;
+      }
+      .dd {
+         position: relative;
+         display: inline-block;
+      }
+      .dd-btn {
+         padding: 15px;
+         text-align: center;
+         background: #173459;
+         border: none;
+         width: 300px;
+         color: #f8f9f9;
+      }
+      .dd-content {
+         position: absolute;
+         width: 100%;
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+         height: 0px;
+         transition: height 1s;
+         overflow: hidden;
+      }
+      .dd:hover > .dd-content {
+         background-color: black;
+         height: 150px;
+      }
+      .dd-content > a {
+         display: block;
+         padding: 15px;
+         text-decoration: none;
+         color: orange;
+      }
